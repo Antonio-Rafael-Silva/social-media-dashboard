@@ -1,0 +1,24 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass ./assets/scss/main.scss ./dist/styles.css",
+    "watch:sass": "sass ./assets/scss/main.scss ./dist/styles.css -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonio-Rafael-Silva/social-media-dashboard.git"
+  },
+  "author": "Antonio Rafael Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antonio-Rafael-Silva/social-media-dashboard/issues"
+  },
+  "homepage": "https://github.com/Antonio-Rafael-Silva/social-media-dashboard#readme",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
