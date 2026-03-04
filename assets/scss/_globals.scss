@@ -69,6 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .overview-featured-inner {
@@ -126,4 +127,66 @@ body {
     font-weight: $font-weight-bold;
 }
 
+.dashboard__overview-today {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
+.overview-today-title {
+  color: $white;
+  font-size: 1.25rem;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.05rem;
+}
+
+.dashboard__overview-today-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  gap: 1rem;
+
+  background-color: $navy-950;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.overview-today-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.overview-today-viewtype-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.overview-viewtype {
+  color: $gray-400;
+
+  font-weight: $font-weight-bold
+}
+
+.overview-today-numbers {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.overview-today-amount {
+  color: $white;
+  font-weight: $font-weight-bold;
+}
+
+.rate-up {
+  color: $green-500;
+  font-weight: $font-weight-bold;
+}
+
+.rate-down {
+  color: $red-500;
+  font-weight: $font-weight-bold;
+}
